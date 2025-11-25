@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import ThemeToggle from "@/components/ThemeToggle";
-import Pagination from "@/components/Pagination";
-// import FloatingNavMenu from "@/components/Menu";
-import MusicPlayer from "@/components/MusicPlayer";
-import Providers from "@/components/Providers";
+import ThemeToggle from "@/app/components/ThemeToggle";
+import Pagination from "@/app/components/Pagination";
+// import FloatingNavMenu from "@/app/components/Menu";
+import MusicPlayer from "@/app/components/MusicPlayer";
+import Providers from "@/app/components/Providers";
 
 // Use system fonts defined in globals.css
 
