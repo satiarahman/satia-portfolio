@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import SelfPort from "@/app/gallery/portrait";
-import PdfViewer from "./pdfViever/pdfViewer";
+// import PdfViewer from "./pdfViever/pdfViewer";
 
 export const metadata: Metadata = {
   title: "Home — Developer Portfolio",

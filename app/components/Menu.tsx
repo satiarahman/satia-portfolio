@@ -25,7 +25,7 @@ export default function FloatingNavMenu() {
               {links.map((item, index) => (
                 <li key={index}>
                   <a
-                    href={links.href}
+                    href={item.href}
                     className="text-gray-300 hover:text-white transition-colors duration-200 text-base block"
                   >
                     {item.label}
