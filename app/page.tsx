@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div id="about">
       <div className="hero">
-        <h1>DEVELOPER</h1>
+        <h1>SOFTWARE ENGINEER</h1>
         <p className="title">Web & Mobile Specialist</p>
         <div className="social-links">
           <a href="https://github.com/satiarahman" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
@@ -38,18 +38,13 @@ export default function Home() {
           </div>
         </div>
         {/* <PdfViewer fileUrl="/Satia_Rahman_CV_ATS 2.pdf" /> */}
-        <a href="#" className="cta-button">DOWNLOAD CV</a>
+        <a href="/CV_Satia_Rahman-2025.pdf" className="cta-button" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
       </div>
       <div className="content-section">
         <h2>About Me</h2>
         <p>
-          I&apos;m a passionate developer specializing in creating elegant solutions for web and mobile platforms.
-          With a keen eye for design and a commitment to clean code, I transform ideas into functional,
-          beautiful digital experiences.
-        </p>
-        <p>
-          My approach combines technical expertise with creative problem-solving, ensuring every project
-          not only meets requirements but exceeds expectations.
+          I&apos;m a Software Engineer specializing in Frontend, creating solutions for web and mobile platforms.
+          I transform ideas into functional, smooth UI & UX digital web experiences.
         </p>
         <p>This page is built with Next.js and Tailwind CSS; Redux handles dark mode via Providers.tsx</p>
         <div className="skills">
