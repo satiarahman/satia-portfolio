@@ -53,7 +53,6 @@ export default function Pagination() {
         {indicatorX !== null && (
           <span
             className={`pill-indicator${expanded ? " expanded" : ""}`}
-            // style={expanded ? { left: `${indicatorX}px`, width: indicatorW ?? undefined } : undefined}
             aria-hidden
           />
         )}
@@ -77,7 +76,6 @@ export default function Pagination() {
               }}
             >
               <span className="tab-label">{l.label}</span>
-              <span className="tab-underline" aria-hidden />
             </Link>
           );
         })}
