@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
         {/* <PdfViewer fileUrl="/Satia_Rahman_CV_ATS 2.pdf" /> */}
-        <a href="/CV_Satia_Rahman-2025.pdf" className="cta-button" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
+        <a href="/CV_Satia-Rahman-(2026).pdf" className="cta-button" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
       </div>
       <div className="content-section">
         <h2>About Me</h2>
