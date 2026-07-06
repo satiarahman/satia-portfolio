@@ -37,8 +37,7 @@ export default function Home() {
             <Image src={SelfPort} alt="Portrait" priority sizes="(max-width: 768px) 160px, 200px" className="portrait-img" />
           </div>
         </div>
-        {/* <PdfViewer fileUrl="/Satia_Rahman_CV_ATS 2.pdf" /> */}
-        <a href="/CV_Satia-Rahman-(2026).pdf" className="cta-button" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
+        <a href="/SATIA_RAHMAN-CV_2026.pdf" className="cta-button" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
       </div>
       <div className="content-section">
         <h2>About Me</h2>
